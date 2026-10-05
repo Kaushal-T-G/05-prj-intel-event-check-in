@@ -348,6 +348,62 @@ select {
   color: #475569;
 }
 
+/* Attendee list */
+.attendee-list {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#attendeeList {
+  list-style: none;
+}
+
+.attendee-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.attendee-team {
+  font-size: 14px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  color: #475569;
+}
+
+.attendee-item.water .attendee-team { background-color: #e8f7fc; }
+.attendee-item.zero .attendee-team { background-color: #ecfdf3; }
+.attendee-item.power .attendee-team { background-color: #fff7ed; }
+
+.attendee-empty {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 15px;
+}
+
+/* Celebration message */
+.celebration {
+  background-color: #fff7d6;
+  color: #7a5b00;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .hero {
